@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&disp@lay=swap');
+
+/*body*/
+
+body{
+        margin: 0;
+        background-color: #f3f2f0;
+        width: 100%;
+        table-layout: fixed;
+        
+    }
+    table{
+        text-align: center;
+        border-spacing: 0;
+        
+    }
+
+     td{
+        padding: 0;
+    }
+    img{
+        border: 0;
+    }
+
+    p{
+        font-family: Inter;
+        font-size: 14px;
+        
+    }
+
+    h1{
+         font-family: Playfair Display;
+    }
+
+    h2{
+        font-size: 14px;
+        font-family: Playfair Display;
+    }
+
+    button{
+        padding: 15px 150px;
+        border-radius: 0px;
+        border: none;
+        background-color: #6D805A;
+        color: white;
+        font-weight: bold;
+    }
+
+    button:hover{
+        cursor: pointer;
+    }
+
+    hr{
+        width: 75%;
+    }
+
+/**/
+
+.main{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 600px;
+        background-color: white;
+        padding-bottom: 30px;
+    }
+
+
+    .smallText p{
+        font-size: 12px;
+    }
+
+
+    .links{
+       
+      
+         margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 600px;
+        height: 100%;
+        
+        
+    }
+
+
+
+    .twoColumns{
+        padding: 10px 10px;
+        font-size: 0;
+        padding: 50px 50px;
+       
+       
+    }
+    
+    .twoColumns .column{
+        width: 100%;
+        max-width: 200px;
+        display: inline-table;
+        
+        
+    }
+
+    .twoColumns .padding{
+
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    .buttonPadding{
+        padding-bottom: 50px;
+    }
+
+    .twoColumns p{
+        text-align: left;
+    }
+    
+
+    li{
+        font-size: 20px;
+        font-family: Playfair Display;
+        text-align: left;
+    }
+
+     .threeIcons{
+        padding: 10px 0px;
+        font-size: 0;
+       
+       
+    }
+    
+    .threeIcons .column{
+        width: 100%;
+        max-width: 200px;
+        display: inline;
+        
+        
+        
+    }
+
+    .threeIcons .padding{
+        padding: 0px 10px; 
+        padding-top: 20px;
+
+    }
